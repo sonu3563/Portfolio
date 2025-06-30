@@ -8,12 +8,12 @@ export default function SkillsPage({ isActive }) {
     "JS",
     "React.js",
     "React Native",
-    "Vue.js",
+    // "Vue.js",
     "Python",
     "Django",
     "JAVA",
-    "SpringBoot",
-    "Spring",
+    // "SpringBoot",
+    // "Spring",
     "Node.js",
     "Express.js",
     "SQL",
@@ -39,6 +39,9 @@ export default function SkillsPage({ isActive }) {
     "Api Integrations",
     "Firebase",
     "Google Cloud",
+    "twillio",
+    "Payment Gateway",
+    
     
 
     // Project & Process
@@ -98,11 +101,11 @@ export default function SkillsPage({ isActive }) {
 
         <ul className="skills-list content-card">
           {[
-            { name: "Project Management & Leadership", value: 85 },
-            { name: "JAVA/SpringBoot", value: 90 },
-            { name: "Python/Django", value: 80 },
-            { name: "Node.js/Express.js", value: 90 },
-            { name: "React.js, Next.js, Vue.js, React Native", value: 90 },
+            { name: "Project Management & Leadership", value: 90 },
+            { name: "React Native/Flutter", value: 90 },
+            { name: "Node.js/Express.js", value: 85 },
+            { name: "Python/Flask", value: 80 },
+            { name: "React.js, Next.js ", value: 90 },
             { name: "Cloud Computing (AWS, DigitalOcean)", value: 85 },
             { name: "DevOps & CI/CD", value: 85 },
           ].map((skill, index) => (

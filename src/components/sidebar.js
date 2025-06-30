@@ -15,7 +15,7 @@ export default function Sidebar() {
 
         <div className="info-content">
           <h1 className="name" title="SplendidPahadi">
-            Rahul Vij
+            Sonu Jaiswal
           </h1>
           <p className="title">Full Stack Developer | DevOps Engineer</p>
         </div>
@@ -34,10 +34,10 @@ export default function Sidebar() {
 
         <ul className="contacts-list">
           {[
-            { icon: "mail-outline", title: "Email", value: "rahulvij228@gmail.com", link: "" },
-            { icon: "phone-portrait-outline", title: "Phone", value: "+91 8307547282", link: "tel:+918307547282" },
-            { icon: "calendar-outline", title: "Birthday", value: "October 22, 2003", isTime: true },
-            { icon: "location-outline", title: "Location", value: "Ambala city, Haryana (134003)", isAddress: true },
+            { icon: "mail-outline", title: "Email", value: "sonujaiswal3563@gmail", link: "" },
+            { icon: "phone-portrait-outline", title: "Phone", value: "+91 9915113563", link: "tel:+919915113563" },
+            { icon: "calendar-outline", title: "Birthday", value: "March 25, 2002", isTime: true },
+            { icon: "location-outline", title: "Location", value: "Daria, Chandigarh (160101)", isAddress: true },
           ].map((item, index) => (
             <li key={index} className="contact-item">
               <div className="icon-box">
@@ -63,8 +63,8 @@ export default function Sidebar() {
 
         <ul className="social-list">
           {[
-            { platform: "linkedin", url: "https://in.linkedin.com/in/rahul-vij-9b25b728b" },
-            { platform: "github", url: "https://github.com/Rahulvij2003" },
+            { platform: "linkedin", url: "https://in.linkedin.com/in/sonu-jaiswal-68296b290" },
+            { platform: "github", url: "https://github.com/sonu3563" },
           ].map(({ platform, url }) => (
             <li key={platform} className="social-item">
               <a href={url} className="social-link" target="_blank" rel="noopener noreferrer">

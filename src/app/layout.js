@@ -3,7 +3,7 @@ import Script from "next/script";
 import BackgroundAnimation from "../components/BackgroundAnimation";
 
 export const metadata = {
-  title: "Rahul vij",
+  title: "Sonu Jaiswal",
   description: "Personal portfolio and resume website",
 };
 
